@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dinhvu.quanlynhatro.View.Edithoadon">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <EditText android:id="@+id/suasodien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện"
+            android:inputType="number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <EditText android:id="@+id/suasonuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số nước"
+            android:inputType="number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <EditText android:id="@+id/suasointernet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phí internet"
+            android:inputType="number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:onClick="suahoadon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="Xác nhận"
+        android:textColor="#ffffff" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="fill_parent"
+        android:onClick="huysua"
+        android:layout_height="wrap_content"
+        android:background="#ff9720"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="hủy bỏ"/>
+</LinearLayout>

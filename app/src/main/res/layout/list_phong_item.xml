@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#f70909"
+        android:id="@+id/view"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_phong"
+        android:text="phòng số"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#0e0afa"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="so luong sinh vien"
+            android:textColor="#f705f7"
+            android:id="@+id/slsv"
+            android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="khép kín"
+            android:id="@+id/loaiphong"
+            android:textColor="#f4b806"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gia phong"
+            android:id="@+id/giaphong"
+            android:layout_gravity="right"
+            android:textColor="#f4b806"/>
+    </LinearLayout>
+</LinearLayout>

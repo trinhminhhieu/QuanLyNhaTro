@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_deletekh"
+        android:orderInCategory="100"
+        android:title="Xóa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_editkh"
+        android:orderInCategory="100"
+        android:title="Chỉnh sửa"
+        app:showAsAction="never" />
+</menu>
